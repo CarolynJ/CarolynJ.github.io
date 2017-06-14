@@ -1,0 +1,23 @@
+﻿body {
+    background: url("lake2.jpg") no-repeat fixed center;
+}
+.img-circle {
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    border-radius: 50%;
+
+}
+h1, h2{
+    text-align: center;
+    font-family: Calibri;
+}
+#tagline{
+    font-style: italic;
+}
+.button {
+    text-align: center;
+    padding: 10px 15px;
+    background: beige;
+    margin: 50px;
+}
