@@ -11,16 +11,14 @@
     border-radius: 50%;
 
 }
-.textBox
-{
+.textBox {
     display: inline-flex;
     flex-wrap: wrap;
-    justify-content:center;
+    justify-content: center;
     width: 750px;
     margin: 10px 150px 10px 150px;
     padding: 0px 10px 0px 20px;
-    background: #0099cc;
-
+    background: #e0f2f8;
 }
 .textBox1 {
     display: inline-flex;
@@ -29,7 +27,8 @@
     width: 350px;
     margin: 10px 75px 15px 5px;
     padding: 0px 10px 0px 20px;
-    background: #0099cc;
+    background: #e0f2f8;
+
 }
 .img-center{
 
