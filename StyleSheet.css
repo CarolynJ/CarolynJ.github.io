@@ -1,5 +1,8 @@
 ﻿body {
-    background: url("lake2.jpg") no-repeat fixed center;
+  //  background: url("lake2.jpg") no-repeat fixed center;
+  background: border-box;
+    font-family: Cambria;
+    font-size: 20px;
 }
 .img-circle {
     display: block;
@@ -8,16 +11,55 @@
     border-radius: 50%;
 
 }
+.textBox
+{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    width: 750px;
+    margin: 10px 150px 10px 150px;
+    padding: 0px 10px 0px 20px;
+    background: #0099cc;
+
+}
+.textBox1 {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 350px;
+    margin: 10px 75px 15px 5px;
+    padding: 0px 10px 0px 20px;
+    background: #0099cc;
+}
+.img-center{
+
+    text-align:center;
+    position:center;
+}
+h1{
+    color: #0099cc;
+    font-weight: bold;
+}
 h1, h2{
     text-align: center;
     font-family: Calibri;
+    margin: 0px;
 }
 #tagline{
     font-style: italic;
+    margin: 0px;
 }
 .button {
-    text-align: center;
-    padding: 10px 15px;
-    background: beige;
-    margin: 50px;
+    position: center;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 5px;
+    background-color: lavender;
+    font-size: 10px;
+}
+.list{
+
+    margin: 0;
+   
 }
