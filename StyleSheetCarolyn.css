@@ -1,0 +1,37 @@
+﻿.img-circle {
+    display: inline-block;
+    margin-left: 10%;;
+    margin-right: auto;
+    border-radius: 50%;
+    width: 25%;
+
+}
+body {
+    background-color:#336699 
+}
+
+.navbar,
+navbar-header {
+    color: cadetblue;
+}
+
+.techElevator{
+    display:block;
+}
+.techElevatorText{
+    width: 50%;
+    margin: 25px;
+    padding: 20px;
+    font-size: 18px;
+    background-color: aliceblue;
+    display: inline-block;
+}
+.techElevatorImg{
+    display:inline-block;
+}
+.centerBtn{
+
+    float:right;
+    margin-right: 33%:
+    text-align: center;
+}
