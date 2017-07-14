@@ -40,12 +40,15 @@ navbar-header {
 .aboutMe {
     font-size: 1em;
 }
+
+.panel panel-default{
+    display:inline-flex;
+}
 .panel-body{
     display: inline-flex;
+    flex:auto;
+    font-size: 18px;
 }
-.panel panel-default{
-    display:flex;
-}
-.body{
-    font-size:larger;
+#myCarousel{
+    height: 70%;
 }
