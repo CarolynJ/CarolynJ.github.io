@@ -15,11 +15,13 @@ navbar-header {
     color: cadetblue;
 }
 
-.techElevator{
-    display:block;
+.techElevator {
+    display: block;
+ 
 }
-.techElevatorText{
+.techElevatorText {
     width: 50%;
+    border-radius: 33px;
     margin: 25px;
     padding: 20px;
     font-size: 18px;
@@ -34,4 +36,16 @@ navbar-header {
     float:right;
     margin-right: 33%:
     text-align: center;
+}
+.aboutMe {
+    font-size: 1em;
+}
+.panel-body{
+    display: inline-flex;
+}
+.panel panel-default{
+    display:flex;
+}
+.body{
+    font-size:larger;
 }
