@@ -53,3 +53,7 @@ navbar-header {
 #myCarousel{
     height: 50%;
 }
+.carousel-caption{
+    top: -20px;
+    bottom: auto;
+}
