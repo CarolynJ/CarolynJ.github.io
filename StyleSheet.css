@@ -57,3 +57,32 @@ navbar-header {
     top: -20px;
     bottom: auto;
 }
+.img-thumbnail{
+    width: 100%;
+    margin: 0px;
+}
+.thumbnail a > img{
+    margin: 0px;
+}
+footer{
+    color: #ffffff;
+}
+.matchbox{
+    vertical-align:bottom;
+
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+h2{
+    color: #ffffff;
+}
+h1{
+    color: #ffffff;
+}
+.aboutMe{
+    padding: 20px;
+    background-color: #ffffff;
+}

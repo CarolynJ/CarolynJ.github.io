@@ -21,6 +21,7 @@
     <link href="startbootstrap-modern-business-gh-pages/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
 
     <!-- My stylrsheet-->
+    <link href="Scripts/bootstrap.js" rel="stylesheet"/>
     <link href="StyleSheet.css" rel="stylesheet" />
 
 
@@ -46,7 +47,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active">
-                       <!-- <a href="about2.html">Education &amp; Experience</a>-->
+                        <!-- <a href="about2.html">Education &amp; Experience</a>-->
                         <a href="about2.html">Experience</a>
                     </li>
                     <li>
@@ -55,7 +56,7 @@
                     <li>
                         <a href="contact.html">Contact</a>
                     </li>
-                    
+
                 </ul>
             </div>
         </div>
@@ -80,7 +81,7 @@
                 </div>
             </div>
 
-                <!--<div class="item">
+            <!--<div class="item">
                 <div class="fill" style="background-color: #28A59B;"></div>
                 <div class="carousel-caption">
                     <h2 style="color:black"><p>This site is under construction!</p>I continue to tweak it and add new things as I practice my new skills.</h2>
@@ -91,7 +92,7 @@
             <div class="item">
                 <div class="fill" style="background-image: url('Content/Header-forGiveCamp.jpg');"></div>
                 <div class="carousel-caption">
-                    <h2 style="color:red"  class="align-text-top">GiveCamp 2017 Cleveland</h2>
+                    <h2 style="color:red" class="align-text-top">GiveCamp 2017 Cleveland</h2>
                     <h3>http://clevelandgivecamp.org/</h3>
                 </div>
             </div>
@@ -116,8 +117,9 @@
                     Software Developer
                 </h1> <h2> curious, clever, collaborative</h2>
             </div>
-            <div class="col-md-4 matchbox">
-                <div class="panel panel-default">
+            <div class="container">
+            <div class="col-md-4 col-sm-12">
+                <div class="matchbox panel panel-default">
                     <div class="panel-heading">
                         <h4><i class="fa fa-fw fa-github"></i>  Check out my code</h4>
                     </div>
@@ -126,18 +128,17 @@
                             Learning to code is improving my strategic thinking. Programming gives me an opportunity to spend time solving problems everyday.
                             Building applications one step at a time is enormously satisfying.
                         </p>
-                       
+
                         <p style="text-align:center">
                             <a href="https://github.com/CarolynJ"><i class="fa fa-github-square fa-2x"></i></a>
                         </p>
-                        <p></p>
-                        <p></p><br />
+                       
                         <!-- <a href="https://github.com/CarolynJ" class="btn btn-default">Learn More</a>-->
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 matchbox">
-                <div class="panel panel-default">
+            <div class="col-md-4 col-sm-12">
+                <div class=" matchbox panel panel-default">
                     <div class="panel-heading">
                         <h4><i class="fa fa-fw fa-linkedin"></i> Education &amp; Experience</h4>
                     </div>
@@ -155,8 +156,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 matchbox">
-                <div class="panel panel-default">
+            <div class="col-md-4 col-sm-12">
+                <div class="matchbox panel panel-default">
                     <div class="panel-heading">
                         <h4><i class="glyphicon glyphicon-phone-alt"></i> Contact me</h4>
                     </div>
@@ -169,12 +170,13 @@
                             <i class="fa fa-envelope-o"></i>
                             <abbr title="Email"></abbr>: <a href="mailto:name@example.com">carolynj70@gmal.com</a>
                         </p>
-                       <!-- <a href="contact.html" class="btn btn-default">Learn More</a>-->
+                        <!-- <a href="contact.html" class="btn btn-default">Learn More</a>-->
                     </div>
                 </div>
             </div>
         </div>
-
+            </div>
+            </div>
 
 
         <!-- Features Section -->
@@ -206,35 +208,67 @@
             </div>
         </div>
     </div>
-    <!-- /.row -->
 
-    <hr>
+    <div class="projects">
+        <div class="col-lg-12">
+            <h2 class="page-header">Coding Projects</h2>
+            <div class="row">
+                <div class="col-sm-4 col-sm-offset-1">
+                <div id="thumbnail" class="thumbnail">
+                    <a href="https://codepen.io/Carolynj/pen/NvymEe">
+                        <img id="portfolio-img"  class="img-thumbnail img-responsive" src="Images/CodePen - Tribute Page Lake MI.png" alt="Screenshot of sample tribute page">
+                    </a>
+                    <div class="caption">
+                        <p class="text-center">Sample Tribute Page on CodePen</p>
+                    </div>
+                </div>
+                    </div>
+                <div class="col-sm-4 col-sm-offset-1">
+                    <div id="thumbnail" class="thumbnail">
+                        <a href="ToDoListJquery/index.html">
+                            <img id="portfolio-img" class="img-thumbnail img-responsive" src="Images/Double To do lists -Practicing Jquery.png" alt="Acreenshot of Dynamic To Do Lists">
+                        </a>
+                            <div class="caption">
+                            <p class="text-center">Dynamic To Do Lists</p>
+                        </div>
+                    </div>
 
-
-
-    <!-- Footer -->
-    <footer>
-        <div class="row">
-            <div class="col-lg-12">
-                <p style="text-align: center">Copyright &copy; Carolyn Jillson 2017</p>
+                </div>
             </div>
         </div>
-    </footer>
+           
+        </div>
 
-    </div>
-    <!-- /.container -->
-    <!-- jQuery -->
+   
+            <!-- /.row -->
 
-    <script src="startbootstrap-modern-business-gh-pages/js/jquery.js"></script>
-    <!-- Bootstrap Core JavaScript -->
+            <hr>
 
-    <script src="startbootstrap-modern-business-gh-pages/js/bootstrap.min.js"></script>
-    <!-- Script to Activate the Carousel -->
-    <script>
-        $('.carousel').carousel({
-            interval: 5000 //changes the speed
-        })
-    </script>
+
+
+            <!-- Footer -->
+            <footer>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p style="text-align: center">Copyright &copy; Carolyn Jillson 2017</p>
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+        <!-- /.container -->
+        <!-- jQuery -->
+
+        <script src="startbootstrap-modern-business-gh-pages/js/jquery.js"></script>
+        <!-- Bootstrap Core JavaScript -->
+
+        <script src="startbootstrap-modern-business-gh-pages/js/bootstrap.min.js"></script>
+        <!-- Script to Activate the Carousel -->
+        <script>
+            $('.carousel').carousel({
+                interval: 5000 //changes the speed
+            })
+        </script>
 
 </body>
 
