@@ -9,11 +9,16 @@
 body {
     background-color:#336699 
 }
-
-.navbar,
-navbar-header {
-    color: cadetblue;
+.navbar {
+    background-color: #336699
 }
+
+.navbar-brand{
+    font-size: xx-large;
+    color: white !important;
+}
+
+
 
 .techElevator {
     display: block;
@@ -34,7 +39,7 @@ navbar-header {
 .centerBtn{
 
     float:right;
-    margin-right: 33%:
+    margin-right: 33%;
     text-align: center;
 }
 .aboutMe {
@@ -42,10 +47,10 @@ navbar-header {
 }
 
 .panel panel-default{
-    display:inline-flex;
+    display:inline-block;
 }
 .panel-body{
-    display: inline-flex;
+  
     flex:auto;
     flex-direction: column;
     font-size: 18px;
