@@ -6,6 +6,11 @@
     width: 75%;
 
 }
+#safeTravels{
+    width: 70%;
+    height: 70%;
+    align-items: center;
+}
 body {
     background-color:#336699 
 }
