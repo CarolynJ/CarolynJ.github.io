@@ -1,0 +1,113 @@
+﻿
+    body.dragging {
+        cursor: move 
+    }
+   
+    .dragged{
+        position: absolute;
+        opacity: .5;
+        z-index: 2000;
+    }
+
+.container-fluid {
+    background: #708cc7;
+}
+.container-fluid:hover {
+    background-color:lightcoral;
+}
+
+.bold {
+    font-weight: bold;
+        font-size:larger;
+}
+.red{
+    color: purple;
+}
+
+.list1 {
+    display: inline-block;
+    background-color: aliceblue;
+    border-width: medium;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.list2 {
+    display: inline-block;
+    background-color: burlywood;
+    border-width: medium;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+inputRow {
+    display: flex;
+}
+#add1{
+    display: inline-block;
+}
+form {
+    display: inline-block;
+}
+
+input {
+    padding: 4px 15px 4px 5px;
+}
+
+button {
+    display: inline-block;
+    background-color: #fc999b;
+    color: #ffffff;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 2px;
+    padding: 5px 15px;
+}
+
+    button:hover {
+        cursor: pointer;
+        opacity: .8;
+    }
+
+#button2 {
+    display: inline-block;
+    background-color: #fc999b;
+    color: #ffffff;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 2px;
+    padding: 5px 15px;
+}
+
+    #button2:hover {
+        cursor: pointer;
+        opacity: .8;
+    }
+
+ol {
+    padding-left: 15px;
+}
+
+    ol li {
+        padding: 10px;
+        color: #000;
+    }
+
+        #firstList li:nth-child(even) {
+            background-color: azure;
+        }
+#thornList li:nth-child(even) {
+    background-color: beige;
+}
+
+.strike {
+    text-decoration: line-through;
+}
+
+li:hover {
+    cursor: pointer;
+}
+footer{
+    text-align:center;
+    font-weight: bold;
+}
