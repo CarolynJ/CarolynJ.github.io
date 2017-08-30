@@ -64,9 +64,7 @@ body {
     margin-right: 33%;
     text-align: center;
 }
-.aboutMe {
-    font-size: 1em;
-}
+
 
 .panel panel-default{
     display:inline-block;
@@ -84,15 +82,14 @@ body {
     top: -20px;
     bottom: auto;
 }
-.thumbnail {
-    margin: 20px 30px 20px 15px;
+/*.thumbnail {
     padding-right: 15px;
-}
+}*/
 .img-thumbnail{
-    width: 80%;
+    width: 100%;
 }
 .portfolio-img{
-    width: 80%;
+    width: 100%;
 }
 /*.thumbnail a > img{
     margin: 0px;
