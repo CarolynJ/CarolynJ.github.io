@@ -3,19 +3,26 @@
     margin-left: 10%;
     margin-right: auto;
     border-radius: 50%;
-    width: 75%;
+    width: 65%;
 
 }
 #safeTravels{
-    width: 70%;
-    height: 70%;
-    align-items: center;
+   
+    margin-top: 40px;
+    align-items:center;
+    
 }
+.captionMessage {
+    margin-top: 60px;
+    background-color: #c7c270;
+}
+
+
 body {
-    background-color:#336699 
+    background-color: #336699;
 }
 .navbar {
-    background-color: #336699
+    background-color: #336699;
 }
 
 .navbar-brand{
@@ -25,12 +32,18 @@ body {
 .subtitle{
     font-weight: bold;
     font-style: italic;
+
 }
 
+.page-header{
+    margin: 40px 15px 20px 15px;
+}
+.pg-subhead {
+    margin: 15px 15px 25px 15px;
+}
 
 .techElevator {
     display: flex;
- 
 }
 .techElevatorText {
     /*width: 50%;*/
@@ -43,6 +56,7 @@ body {
 }
 .techElevatorImg{
     display:inline-block;
+    
 }
 .centerBtn{
 
@@ -64,25 +78,30 @@ body {
     font-size: 18px;
 }
 #myCarousel{
-    height: 50%;
+    height: 60%;
 }
 .carousel-caption{
     top: -20px;
     bottom: auto;
 }
+.thumbnail {
+    margin: 20px 30px 20px 15px;
+    padding-right: 15px;
+}
 .img-thumbnail{
-    width: 100%;
-    margin: 0px;
+    width: 80%;
 }
-.thumbnail a > img{
-    margin: 0px;
+.portfolio-img{
+    width: 80%;
 }
+/*.thumbnail a > img{
+    margin: 0px;
+}*/
 footer{
     color: #ffffff;
 }
 .matchbox{
     vertical-align:bottom;
-
 }
 .container{
     display: flex;
@@ -94,8 +113,4 @@ h2{
 }
 h1{
     color: #ffffff;
-}
-.aboutMe{
-    padding: 20px;
-    background-color: #ffffff;
 }
