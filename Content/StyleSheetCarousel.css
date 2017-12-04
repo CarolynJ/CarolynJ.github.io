@@ -8,3 +8,8 @@
     height: 60%;
     margin: 0 auto;
 }
+.captionMessage {
+    background: red;
+    text-decoration-color: darkred;
+    color:darkred;
+}
