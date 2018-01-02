@@ -12,9 +12,11 @@
     align-items:center;
     
 }
-.captionMessage {
-    margin-top: 60px;
-    background-color: #c7c270;
+.captionMessageBox {
+    margin-top: 80px !important;
+    background-color: aliceblue !important;
+    color: black !important;
+    font-size: xx-large;
 }
 
 
